@@ -1,0 +1,1 @@
+select 'welcome to the Snowflake Cloud Data Engineer course';
