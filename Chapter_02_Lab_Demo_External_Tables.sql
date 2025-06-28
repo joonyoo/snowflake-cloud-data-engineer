@@ -6,11 +6,11 @@
 -- STEP 1: CREATE A DATABASE AND SCHEMA
 -- This ensures a dedicated workspace for this lab exercise.
 
-CREATE OR REPLACE DATABASE DEMO;
-CREATE OR REPLACE SCHEMA RAW;
+CREATE IF NOT EXISTS lessons;
+CREATE OR REPLACE SCHEMA chapter_02_lab_demo;
 
 -- Set the context to use the new database and schema.
-USE DEMO.RAW;
+USE schema chapter_02_lab_demo;
 
 -- ==============================================
 -- STEP 2: CREATE AN EXTERNAL STAGE
